@@ -1,0 +1,147 @@
+.nav li{
+    display: inline-block; 
+    padding: 15px;
+}
+.align{
+    display: flex;
+    justify-content: flex-end; 
+}
+.a:hover{
+   background-color: rgb(172, 163, 163); 
+}
+
+.a{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+}
+h1{
+    letter-spacing: 3px;
+    color:rgb(219, 211, 211);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 300%;
+    font-style: italic;
+}
+.back{
+    background-image: url('fond.jpg');
+    background-repeat: no-repeat;
+    background-size: 300%;
+}
+.or{
+    display: flex;
+    justify-content: space-between;
+}
+select{
+  width: 30%;
+  padding: 5px 5px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+.titre{
+   background-image: url('voiture.jpg');
+   background-repeat: no-repeat;
+   background-size: 100%;
+   padding: 30px 30px;
+}
+.footr{
+font-size: 18px;
+font-family: 'Courier New', Courier, monospace;
+background-color: grey;
+}
+h2{
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.pre{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+}
+p{
+    float: left;
+    font-style: italic;
+    font-size: 150%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: aliceblue;
+
+}
+  .contact{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+legend {
+    padding: 0px 6px;
+    font-weight: bold;
+    font-variant: small-caps;
+  }
+  label {
+    width: 110px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 12px;
+    color: rgb(214, 214, 156);
+  }
+  input, textarea {
+    width: 250px;
+  }
+   
+  textarea {
+    height:100px;
+  }
+  input[type=submit] {
+    width: 100px;
+    padding: 5px;
+  }
+
+  .vehi{
+    position: relative;
+    width: 50%;
+  }
+  .img{
+    display: block;
+    width: 200%;
+    height: auto;
+  }
+  .ecrire{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 200%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:white;
+  }
+  .vehi:hover .ecrire{
+    opacity: 1;
+  }
+  .texte{
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+ .flexi{
+     display: flex;
+     justify-content: space-between;
+     
+ }
+
+
+
+  
+  
+   
+  
